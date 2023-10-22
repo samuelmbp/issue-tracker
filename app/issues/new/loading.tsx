@@ -1,13 +1,3 @@
-import { Skeleton } from "@/app/components";
-import { Box } from "@radix-ui/themes";
+import IssueFromSkeleton from "../_components/IssueFromSkeleton";
 
-const LoadingNewIssuePage = async () => {
-  return (
-    <Box className="max-w-xl">
-      <Skeleton />
-      <Skeleton height="20rem" />
-    </Box>
-  );
-};
-
-export default LoadingNewIssuePage;
+export default IssueFromSkeleton;
