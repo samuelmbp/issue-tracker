@@ -29,7 +29,6 @@ const IssuesPage = async () => {
                 <div className="block md:hidden">
                   <IssueStatusBadge status={issue.status} />
                 </div>
-                9
               </Table.Cell>
               <Table.Cell className="hidden md:table-cell">
                 <IssueStatusBadge status={issue.status} />
