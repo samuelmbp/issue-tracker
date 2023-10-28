@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.variable}>
+        https://members.codewithmosh.com/courses/nextjs-projects-issue-tracker/lectures/49642516
         <AuthProvider>
           <Theme accentColor="violet">
             <NavBar />
